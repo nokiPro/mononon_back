@@ -12,6 +12,7 @@ services:
     tty: true
     stdin_open: true
   db:
+    platform: linux/x86_64
     image: mysql@sha256:dce31fcdd15aaedb5591aa89f19ec37cb79981af46511781fa41287d88ed0abd
     volumes:
       - db-volume:/var/lib/mysql
