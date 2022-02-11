@@ -36,7 +36,7 @@ jobs:
     environment:
       BUNDLE_JOBS: "3"
       BUNDLE_RETRY: "3"
-      APP_DATABASE_HOST: "127.0.0.1:3306"
+      APP_DATABASE_HOST: "127.0.0.1"
       RAILS_ENV: test
     working_directory: ~/mononon-back
     steps:
