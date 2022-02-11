@@ -13,10 +13,13 @@ services:
     stdin_open: true
   db:
     platform: linux/x86_64
-    image: mysql@sha256:dce31fcdd15aaedb5591aa89f19ec37cb79981af46511781fa41287d88ed0abd
+    image: mysql:8.0
+    restart: always
     volumes:
       - db-volume:/var/lib/mysql
       - ./mysql-confd:/etc/mysql/conf.d
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: password
 volumes:

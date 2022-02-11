@@ -23,6 +23,10 @@ gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'net-smtp', require: false
+gem 'net-imap', require: false
+gem 'net-pop', require: false
+
+gem 'sprockets', '~> 3.7.2'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
