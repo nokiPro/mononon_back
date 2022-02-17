@@ -1,4 +1,4 @@
-class CreatePropaties < ActiveRecord::Migration[6.1]
+class CreateProperties < ActiveRecord::Migration[6.1]
   def change
     create_table :propaties do |t|
       t.string :name, null: false
