@@ -9,6 +9,9 @@ monononは、ミニマムな生活を継続させるためのサービスです�
  
  
 # Requirement
+* Ruby
+* Rails
+* Docker
  
 # Installation
  
@@ -19,9 +22,9 @@ monononは、ミニマムな生活を継続させるためのサービスです�
 # Usage
  
 ```bash
-git clone https://github.com/nokiPro/mononon_front
-cd monono_front
-npm run dev
+git clone https://github.com/nokiPro/mononon_back
+cd monono_back
+docker-compose up -d
 ```
  
 # Note
